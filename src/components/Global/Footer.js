@@ -143,6 +143,11 @@ const Footer = () => {
                                                     <i className="fa-brands fa-twitter" />
                                                 </Link>
                                             </li>
+                                            <li>
+                                                <Link to="https://www.youtube.com/" target="_blank">
+                                                    <i className="fa-brands fa-youtube" />
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

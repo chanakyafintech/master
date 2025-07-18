@@ -20,7 +20,7 @@ import Blogstandard from '../components/Blog/Blogstandard/Main';
 import Bloggrid from '../components/Blog/Bloggrid/Main';
 import Bloggrid2 from '../components/Blog/Bloggrid2/Main';
 import Blogdetails from '../components/Blog/Blogdetails/Main';
-
+<>
 const index = () => {
    
     return (
@@ -48,4 +48,5 @@ const index = () => {
         </Routes>
     )
 }
+</>
 export default index;
