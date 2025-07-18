@@ -127,6 +127,9 @@ const Footer = () => {
                                                 <Link to="https://www.facebook.com/" target="_blank">
                                                     <i className="fa-brands fa-facebook-f" />
                                                 </Link>
+                                                <Link to="https://www.maps.com/" target="_blank">
+                                                    <i className="fa-brands fa-maps" />
+                                                </Link>
                                             </li>
                                             <li>
                                                 <Link to="https://www.instagram.com/" target="_blank">
