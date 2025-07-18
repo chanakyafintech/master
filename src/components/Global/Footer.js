@@ -142,6 +142,13 @@ const Footer = () => {
                                                 <Link to="https://x.com/" target="_blank">
                                                     <i className="fa-brands fa-twitter" />
                                                 </Link>
+
+                                            </li>
+                                              <li>
+                                                <Link to="https://web.telegram.org/a/" target="_blank">
+                                                    <i className="bi bi-telegram" />
+                                                </Link>
+                                                
                                             </li>
                                         </ul>
                                     </div>
