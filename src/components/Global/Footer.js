@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Footerlogo from '../../assets/images/Footer_logo.svg';
 
+
 const Footer = () => {
     return (
         <footer className="footer-one">

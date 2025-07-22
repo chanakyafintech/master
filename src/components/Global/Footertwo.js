@@ -1,5 +1,6 @@
 import React from "react";
 import Footerlogo01 from '../../assets/images/logo.png';
+
 import { Link } from "react-router-dom";
 
 const Footertwo = () => {
@@ -100,7 +101,7 @@ const Footertwo = () => {
                                 <div className="footer-two-subscribe">
                                     <div className="footer-two-logo">
                                         <Link to="#">
-                                            <img width={217} src={Footerlogo01} alt="logo" />
+                                            <img width={217} src ={Footerlogo01} alt="logo" />
                                         </Link>
                                     </div>
                                     <h4>Subscribe To Newsletter</h4>

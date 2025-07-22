@@ -579,6 +579,11 @@ nav.main-menu {
     display: flex;
     width: 100%;
     padding-top: 50px;
+    
+}
+.logo-align {
+    margin-top: -21px;
+    margin-left: -130px;
 }
 ul.main-menu-list {
     display: flex;
