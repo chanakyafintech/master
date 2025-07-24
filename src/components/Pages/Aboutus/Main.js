@@ -13,7 +13,6 @@ import BackToTop from '../../Global/BackToTop';
 const Main = () => {
     return(
         <>
-        <Preloader/>
         <Headertwo/>
         <Innerpage/>
         <Aboutus/>
