@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Footerlogo from '../../assets/images/Footer_logo.svg';
+import Chanakya_Logo_White from '../../assets/images/Chanakya_Logo_White.png';
 
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
                             <div className="col-xl-3 col-lg-4 col-md-6 footer-about">
                                 <div className="footer-one-about">
                                     <Link to="#">
-                                        <img src={Footerlogo} alt="footer-logo" />
+                                        <img className="logo-align2" src={Chanakya_Logo_White} alt="footer-logo" />
                                     </Link>
                                 </div>
                                 <div className="footer-one-about-details">

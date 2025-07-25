@@ -6,16 +6,16 @@ import Portfoliotwo from "../MenPortfolioGrid/Portfoliotwo";
 import Ctaone from "../../Global/Ctaone";
 import Footertwo from "../../Global/Footertwo";
 import BackToTop from '../../Global/BackToTop';
+import Footer from "../../Global/Footer";
 
 const Main = () =>{
     return(
         <>
-        <Preloader/>
-         <Headertwo/>
+      
          <Portfoliobred Title="Portfolio Grid" Subtitle="Portfolio"/>
          <Portfoliotwo/>
          <Ctaone/>
-         <Footertwo/>
+         <Footer/>
          <BackToTop/>
         </>
     )

@@ -575,10 +575,6 @@ nav.main-menu {
     margin-bottom: 50px;
     margin-left: 121px;
     padding-bottom:3% ;
-    
-    
-    
-    
     position: relative;
     text-align: center;
 }
@@ -807,6 +803,12 @@ ul.topbar-two-social-media li a:hover{
     height: 51px;
     background-color: rgba(255, 255, 255, 0.8);
     display: inline-block;
+}
+.login-align4{
+    margin-left: -10px;
+    height: 150px;
+    width: 180px;
+    padding-left: 0px;
 }
 /***********************
  * main-header-three
@@ -4408,6 +4410,8 @@ ul.cta-details-three li i{
 }
 .footer-about {
     position: relative;
+    
+    
 }
 .footer-about::after {
     content: "";
@@ -4427,7 +4431,8 @@ ul.cta-details-three li i{
     padding: 75px 0;
 }
 .footer-one-about-details p {
-    margin: 43px 0;
+    /*margin: 43px 0;*/
+    margin-top: 0%;
     color: rgba(255,255,255,0.8);
 }
 footer h3, footer h4{
@@ -4495,6 +4500,7 @@ footer h3{
     font-size: 15px;
 }
 .footer-One-subscribe p{
+    
     color: rgba(255,255,255,0.8);
 }
 .footer-One-subscribe-form {
@@ -4566,6 +4572,13 @@ footer h3{
 .footer-copy-right-one a {
     font-weight: 700;
     color: var(--loanlift-text-light);
+}
+.logo-align2{
+     /* Adjust logo size as needed */
+    padding-left: 0%;
+    width: 150px;
+    height: 150px;
+    margin-top: -40px;
 }
 /***********************
  * footer two
@@ -4661,6 +4674,7 @@ footer h3{
     margin-bottom: 40px;
 }
 .footer-two-subscribe p{
+    padding-bottom: 10px;
     margin: 14px 0 20px;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -4704,6 +4718,15 @@ button.subscribe-btn {
     z-index: 1;
     background-color: var(--loanlift-primary-bg);
     padding: 35px 0;
+}
+.logo-align3{
+    width: 150px; /* Adjust logo size as needed */
+   margin-bottom: 0px;
+
+    margin-top: -100px;
+
+    
+    
 }
 /***********************
  * about one

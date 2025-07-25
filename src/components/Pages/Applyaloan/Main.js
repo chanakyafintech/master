@@ -5,15 +5,15 @@ import CareersBred from "../../Global/CareersBred";
 import Applyloans from "../MenApplyaloan/Applyloans";
 import Footertwo from "../../Global/Footertwo";
 import BackToTop from '../../Global/BackToTop';
+import Footer from "../../Global/Footer";
 
 const Main = () => {
     return(
         <>
-        <Preloader/>
-        <Headertwo/>
+        
         <CareersBred Title="Apply Now" Subtitle="Apply Now"/>
         <Applyloans/>
-        <Footertwo/>
+        <Footer/>
         <BackToTop/>
         </>
     )

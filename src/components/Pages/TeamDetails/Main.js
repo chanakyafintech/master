@@ -7,17 +7,16 @@ import Teamone from "../../Home/Mainhomeone/Teamone";
 import Ctaone from "../../Global/Ctaone";
 import Footertwo from "../../Global/Footertwo";
 import BackToTop from '../../Global/BackToTop';
+import Footer from "../../Global/Footer";
 
 const Main = () =>{
     return(
         <>
-        <Preloader/>
-        <Headertwo/>
         <Faqbreadcumb Title="Brian Hollifield" Subtitle="Team"/>
         <Teamdetail/>
         <Teamone/>
         <Ctaone/>
-        <Footertwo/>
+        <Footer/>
         <BackToTop/>
         </>
     )

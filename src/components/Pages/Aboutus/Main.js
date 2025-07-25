@@ -9,19 +9,19 @@ import Teamone from "../../Home/Mainhomeone/Teamone";
 import Ctaone from "../../Global/Ctaone";
 import Footertwo from "../../Global/Footertwo";
 import BackToTop from '../../Global/BackToTop';
+import Footer from "../../Global/Footer";
 
 const Main = () => {
     return(
         <>
-        <Preloader/>
-        <Headertwo/>
+        
         <Innerpage/>
         <Aboutus/>
         <Whychooseus/>
         <Testimonialtwo/>
         <Teamone/>
         <Ctaone/>
-        <Footertwo/>
+        <Footer/>
         <BackToTop/>
         </>
     )

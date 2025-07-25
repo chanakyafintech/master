@@ -6,16 +6,16 @@ import Teamdetail from "../MenFaq/Teamdetails";
 import Ctaone from "../../Global/Ctaone";
 import Footertwo from "../../Global/Footertwo";
 import BackToTop from '../../Global/BackToTop';
+import Footer from "../../Global/Footer";
 
 const Faq = () => {
     return(
         <>
-        <Preloader/>
-         <Headertwo/>
+    
          <Faqbreadcumb Title="FAQS" Subtitle="FAQS"/>
          <Teamdetail/>
          <Ctaone/>
-         <Footertwo/>
+         <Footer/>
          <BackToTop/>
         </>
     )
