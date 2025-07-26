@@ -6,16 +6,15 @@ import Teamdetail from '../Mainbloggrid/Teamdetail';
 import Ctaone from '../../Global/Ctaone';
 import Footertwo from '../../Global/Footertwo';
 import BackToTop from '../../Global/BackToTop';
+import Footer from '../../Global/Footer';
 
 const Main = () => {
     return (
         <>
-        <Preloader/>
-            <Headertwo />
             <Blogbred Title="Blog Grid 2 Columns" Subtitle="Blog Grid 2 Columns"/>
             <Teamdetail/>
             <Ctaone/>
-            <Footertwo/>
+            <Footer/>
             <BackToTop/>
         </>
     )

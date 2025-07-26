@@ -6,16 +6,15 @@ import Aboutthree from "../MenContactus/Aboutthree";
 import Contact from "../MenContactus/Contact";
 import Footertwo from "../Global/Footertwo";
 import BackToTop from '../Global/BackToTop';
+import Footer from "../Global/Footer";
 
 const Main = () => {
    return (
       <>
-         <Preloader />
-         <Headertwo />
          <Innerpage />
          <Aboutthree />
          <Contact />
-         <Footertwo />
+         <Footer/>
          <BackToTop/>
       </>
    )

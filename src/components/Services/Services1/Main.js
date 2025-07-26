@@ -8,18 +8,18 @@ import Pricingplan from '../../Services/Mainservices1/Pricingplanone';
 import Ctaone from '../../Global/Ctaone';
 import Footertwo from '../../Global/Footertwo';
 import BackToTop from '../../Global/BackToTop';
+import Footer from '../../Global/Footer';
 
 const Main = () => {
     return (
         <>
-            <Preloader />
-            <Headertwo />
+            
             <Servicebred Title="Our Services 1" Subtitle="Our Services" />
             <Servicesthree />
             <Testimonialone />
             <Pricingplan />
             <Ctaone />
-            <Footertwo />
+            <Footer />
             <BackToTop/>
         </>
     )

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Logob01 from '../../assets/images/logo-black.svg';
-import Logo02 from '../../assets/images/logo.png';
+//import Logob01 from '../../assets/images/logo-black.svg';
+import Chanakya_Logo_White from '../../assets/images/Chanakya_Logo_White.png';
+import Chanakya_Logo from '../../assets/images/Chanakya_Logo.png';
+//import Logo02 from '../../assets/images/logo.png';
 import { Link } from "react-router-dom";
 
 const Headertwo = () => {
@@ -77,7 +79,7 @@ const Headertwo = () => {
                     <nav className="main-menu">
                         <div className="main-menu-logo">
                             <Link to="/">
-                                <img src={Logob01} alt="header-logo" />
+                                <img className="login-align4" src={Chanakya_Logo} alt="header-logo" />
                             </Link>
                         </div>
                         <div className="main-menu-inner">
@@ -200,7 +202,7 @@ const Headertwo = () => {
                         </Link>
                         <div className="logo-box">
                             <Link to="/">
-                                <img width={150} src={Logo02} alt="logo" />
+                                <img width={150} src={Chanakya_Logo} alt="logo" />
                             </Link>
                         </div>
                         <div className="mobile-nav-container">

@@ -15,12 +15,11 @@ import Blogtwo from '../Mainhometwo/Blogtwo';
 import Inquiryone from '../Mainhometwo/Inquiryone';
 import Footertwo from '../../Global/Footertwo';
 import BackToTop from '../../Global/BackToTop';
+import Footer from '../../Global/Footer';
 
 const Main = () => {
     return (
         <>
-            <Preloader />
-            <Headertwo />
             <Bannertwo />
             <Aboutone />
             <Featurestwo />
@@ -33,7 +32,7 @@ const Main = () => {
             <Testimonialtwo />
             <Blogtwo />
             <Inquiryone />
-            <Footertwo />
+            <Footer/>
             <BackToTop />
         </>
     )

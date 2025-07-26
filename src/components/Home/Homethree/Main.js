@@ -14,12 +14,11 @@ import Ctathree from '../Mainhomethree/Ctathree';
 import Faqone from '../Mainhomethree/Faqone';
 import Footertwo from '../../Global/Footertwo';
 import BackToTop from '../../Global/BackToTop';
+import Footer from '../../Global/Footer';
 
 const Main = () => {
     return (
         <>
-        <Preloader/>
-        <Headerthree/>
         <Bannerthree/>
         <Abouttwo/>
         <Whychoosethree/>
@@ -31,7 +30,7 @@ const Main = () => {
         <Blogthree/>
         <Ctathree/>
         <Faqone/>
-        <Footertwo/>
+        <Footer/>
         <BackToTop/>
         </>
     )

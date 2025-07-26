@@ -6,16 +6,17 @@ import Ctaone from "../../Global/Ctaone";
 import Footertwo from "../../Global/Footertwo";
 import Portfoliobred from "../../Global/Portfoliobred";
 import BackToTop from '../../Global/BackToTop';
+import Footer from "../../Global/Footer";
 
 const Main =()=>{
     return(
         <>
-        <Preloader/>
-         <Headertwo/>
+        
+        
          <Portfoliobred Title="Portfolio" Subtitle="Portfolio"/>
          <Portfolio/>
          <Ctaone/>
-         <Footertwo/>
+         <Footer/>
          <BackToTop/>
         </>
     )

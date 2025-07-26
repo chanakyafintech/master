@@ -6,16 +6,16 @@ import Servicesdetails from '../Mainservicesdetails/Servicesdetails';
 import Ctaone from '../../Global/Ctaone';
 import Footertwo from '../../Global/Footertwo';
 import BackToTop from '../../Global/BackToTop';
+import Footer from '../../Global/Footer';
 
 const Main = () => {
     return (
         <>
-            <Preloader />
-            <Headertwo />
+            
             <Servicedtlbred />
             <Servicesdetails />
             <Ctaone />
-            <Footertwo />
+            <Footer />
             <BackToTop/>
         </>
     )

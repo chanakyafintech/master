@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../../../assets/images/Header_logo.svg';
 import Logo01 from '../../../assets/images/logo.png';
 import Logo02 from '../../../assets/images/logo-black.svg';
+import Chanakya_Logo_white from '../../../assets/images/Chanakya_Logo_White.png';
 
 const Headerthree = () => {
     const [isFixed, setIsFixed] = useState(false);
@@ -45,7 +46,7 @@ const Headerthree = () => {
                     <nav className="main-menu">
                         <div className="main-menu-logo">
                             <Link to="/">
-                                <img src={Logo} alt="header-logo" />
+                                <img src={Chanakya_Logo_white} alt="header-logo" />
                             </Link>
                         </div>
                         <div className="main-menu-inner">

@@ -18,8 +18,8 @@ import BackToTop from '../../Global/BackToTop';
 const Main = () => {
     return (
         <>
-        <Preloader/>
-        <Headerone/>
+        
+        
         <Bannerone/>
         <Servicesone/>
         <Featuresone/>
