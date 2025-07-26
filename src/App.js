@@ -20,7 +20,7 @@ function App() {
     <Router>
 
       <Headerone/>
-      <Footer/>
+      
       <Routing />
     </Router>
   );
